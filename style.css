@@ -1,0 +1,153 @@
+*{
+    font-family: Nunito;
+
+}
+body{
+    background-color: #E1EEDD;
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+.mi-clase {
+    font-family: Nunito;
+    font-size: 18px;
+    color: #183A1D;
+}
+.foot{
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: italic;
+    color: #183A1D;
+}
+h2{
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 22px;
+    color: #183A1D;
+    
+}
+.gen{
+    font-weight: bold;
+    background-color: darkolivegreen;
+    color: darkslategrey;
+    text-shadow: #E1EEDD;
+    font-size: 20px;
+    border-radius: 10px;
+}
+h1{
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 32px;
+    color: #183A1D;
+}
+#image{
+    padding: 10px;
+    margin: 10px;
+    width: 340px;
+    height: auto;
+}
+.box{
+    background-color: lightgray;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid blueviolet;
+    margin: 50px;
+}
+
+.bx2{
+    background-color: lightcoral;
+    width: 300px;
+    height: 150px;
+    padding: 15px;
+    border: 2px solid blueviolet;
+    margin: 20px;
+}
+
+.bx3{
+    background-color: lightpink;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border: 3px solid greenyellow;
+    margin: 30px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.column{
+    flex: 1;
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    .column{
+        flex:100%;
+    }
+}
+.container-nav{
+    display: flex;
+    padding: 10px;
+    height: 50 px;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+li>a{
+    padding: 8px 24px;
+}
+li{
+    list-style: none;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.button-menu-toggle{
+    display: none;
+}
+@media (max-width: 768px){
+    .column{
+        flex: 100%;
+    }
+    .nav-links{
+        display: none;
+    }
+    .button-menu-toggle{
+        display: block;
+        background-color: aliceblue;
+        border: none;
+        border-radius: 50px;
+        padding: 0 24px;
+        font-size: 20px;
+    }
+    .nav-links.nav-links-responsive{
+        position: absolute;
+        display: flex;
+        background-color: rgba(20,20,20,0.95);
+        width: 50%;
+        height: 100%;
+        top: 40px;
+        right: 5px;
+        flex-direction: column;
+        padding-top: 150px;
+        align-items: center;
+        gap: 80px;
+        font-size: 40px;
+    }
+}
