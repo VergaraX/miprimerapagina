@@ -1,6 +1,6 @@
 *{
     font-family: Nunito;
-
+    align-items: center;
 }
 body{
     background-color: #E1EEDD;
@@ -9,7 +9,6 @@ body{
 .container{
     max-width: 800px;
     margin: auto;
-    padding: 20px;
 }
 .mi-clase {
     font-family: Nunito;
@@ -31,11 +30,11 @@ h2{
 }
 .gen{
     font-weight: bold;
-    background-color: darkolivegreen;
-    color: darkslategrey;
+    background-color: black;
+    color: antiquewhite;
     text-shadow: #E1EEDD;
-    font-size: 20px;
-    border-radius: 10px;
+    font-size: 18px;
+    border-radius: 8px;
 }
 h1{
     font-family: Nunito;
@@ -150,15 +149,25 @@ a{
         gap: 80px;
         font-size: 40px;
     }
+    iframe{
+        width: 320px;
+        height: auto;
+    }
+    img{
+        width: 250px;
+        height: auto;
+    }
 }
 .images{
+    left: 0;
+    object-fit: cover;
     display: flex;
     flex-direction: row;
+    align-content: space-between;
     flex-wrap: nowrap;
-    align-items: center;
 }
 img{
-    max-width: 320px;
+    max-width: 260px;
     height: auto;
     margin: 10px;
     padding: 10px;
