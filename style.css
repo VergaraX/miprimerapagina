@@ -157,6 +157,10 @@ a{
         width: 250px;
         height: auto;
     }
+    .images{
+        flex-direction: column;
+        align-content: space-between;
+    }
 }
 .images{
     left: 0;
